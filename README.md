@@ -22,8 +22,18 @@ djangoapp/
 ├── project/       # Núcleo do Django: settings, urls, wsgi
 ├── blog/          # App responsável pela criação e exibição dos posts
 └── site_setup/    # App para configuração das seções do site: header, footer e links
+└── utils/         # Pasta com arquivos utils para o projeto.
 ```
 
+## Arquivos .sh para automatizar comandos.
+```
+collectstatic.sh    
+commands.sh         
+createsuperuser.sh
+makemigrations.sh
+migrate.sh
+runserver.sh
+``` 
 ### Arquivos principais
 
 ```text
