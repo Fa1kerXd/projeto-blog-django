@@ -26,7 +26,8 @@ djangoapp/
 ```
 
 ## Arquivos .sh para automatizar comandos.
-```
+
+```text
 collectstatic.sh    
 commands.sh         
 createsuperuser.sh
@@ -57,19 +58,19 @@ requirements.txt    # Dependências do projeto
 
 ### Seção Admin
 
-![Foto da seção Admin](data/web/media/assets/Pictures_admin.png)
+![Foto da seção Admin](djangoapp/blog/static/Pictures_for_readme/Pictures_admin.png)
 
 ### Seção Post no Admin
 
-![Foto da seção Post no Admin](data/web/media/assets/Pictures_admin_one.png)
+![Foto da seção Post no Admin](djangoapp/blog/static/Pictures_for_readme/Pictures_admin_one.png)
 
-![Foto da seção Post no Admin](data/web/media/assets/Pictures_admin_two.png)
+![Foto da seção Post no Admin](djangoapp/blog/static/Pictures_for_readme/Pictures_admin_two.png)
 
 ### Site Setup
 
-![Foto do Site Setup](data/web/media/assets/Pictures_site_setup_one.png)
+![Foto do Site Setup](djangoapp/blog/static/Pictures_for_readme/Pictures_site_setup_one.png)
 
-![Foto do Site Setup](data/web/media/assets/Pictures_site_setup_two.png)
+![Foto do Site Setup](djangoapp/blog/static/Pictures_for_readme/Pictures_site_setup_two.png)
 
 
 ---
