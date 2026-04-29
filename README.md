@@ -109,7 +109,6 @@ requirements.txt    # Dependências do projeto
 ### Backend
 - Python 3
 - Django
-- Django REST (se estiver usando)
 
 ### Banco de Dados
 - PostgreSQL
