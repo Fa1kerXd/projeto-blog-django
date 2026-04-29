@@ -102,17 +102,28 @@ requirements.txt    # Dependências do projeto
 
 ![Foto do Site Setup](djangoapp/blog/static/Pictures_for_readme/Pictures_site_setup_two.png)
 
-
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
+### Backend
 - Python 3
-- Django Framework
-- Summernote Editor
-- HTML / CSS
+- Django
+- Django REST (se estiver usando)
+
+### Banco de Dados
+- PostgreSQL
+
+### Frontend
+- HTML5
+- CSS3
+
+### DevOps
 - Docker
 - Docker Compose
+
+### Ferramentas
+- Summernote Editor
 
 ---
 
@@ -124,6 +135,7 @@ Antes de iniciar, certifique-se de ter instalado:
 
 - Docker
 - Docker Compose
+- Postgresql
 
 ---
 
