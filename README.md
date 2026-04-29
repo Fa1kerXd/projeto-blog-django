@@ -8,8 +8,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/Fa1kerXd/projeto-blog-django?style=social" alt="GitHub Stars">
-  <img src="https://img.shields.io/github/forks/Fa1kerXd/projeto-blog-django?style=social" alt="GitHub Forks">
   <img src="https://img.shields.io/github/issues/Fa1kerXd/projeto-blog-django" alt="GitHub Issues">
   <img src="https://img.shields.io/github/last-commit/Fa1kerXd/projeto-blog-django" alt="Last Commit">
 </p>
