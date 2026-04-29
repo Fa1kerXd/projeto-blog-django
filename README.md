@@ -134,7 +134,6 @@ Antes de iniciar, certifique-se de ter instalado:
 
 - Docker
 - Docker Compose
-- Postgresql
 
 ---
 
@@ -203,16 +202,6 @@ Este projeto foi desenvolvido para compor meu portfólio, demonstrando habilidad
 - Utilização de containers Docker para ambiente de desenvolvimento;
 - Organização de projeto para apresentação profissional no GitHub.
 
----
-
-## 👤 Créditos
-
-Desenvolvido por **Augusto Cesar da Silva**.
-
-- GitHub: [Fa1kerXd](https://github.com/Fa1kerXd)
-- Projeto: [projeto-blog-django](https://github.com/Fa1kerXd/projeto-blog-django)
-
----
 
 ## 📜 Licença
 
