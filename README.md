@@ -202,6 +202,7 @@ Este projeto foi desenvolvido para compor meu portfólio, demonstrando habilidad
 - Utilização de containers Docker para ambiente de desenvolvimento;
 - Organização de projeto para apresentação profissional no GitHub.
 
+---
 
 ## 📜 Licença
 
