@@ -7,33 +7,3 @@
     </div>
   </div>
 </footer>
-
-<script>
-  (function(){
-    if(typeOf Codemirror == "undefined") return;
-    const codes = document.querySelectorAll("pre")
-
-    for(code in codes){
-      const language = code.data.language | null
-      const text = code.textcontent || code.innerText;
-
-      const config = {
-        value: text,
-        tabSize: 2,
-        mode: language,
-        theme: 'dracula',
-        lineNumbers: true,
-        styleActiveLine: true,
-        styleActiveSelected: true,
-        lineWrapping: false,
-        line: true,
-        readOnly: true,
-        viewportMargin: 50,
-        matchBrackets: true,
-      }
-      const editor = Codemirror(function (node){
-        code.parentNode.replaceChild(node, code);
-      }, config);
-    }
-  })();
-</script>
