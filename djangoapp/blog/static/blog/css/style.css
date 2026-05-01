@@ -162,6 +162,13 @@ img{
 
 
 
+/*CodeMirror*/
+.CodeMirror{
+  height: auto !important;
+  font-size: var(--fs-smlr) !important;
+
+}
+
 /* Blog */
 body,
 html,
