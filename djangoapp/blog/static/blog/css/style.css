@@ -160,7 +160,12 @@ img{
   margin: 0 auto;
 }
 
+/*CodeMirror*/
+.CodeMirror{
+  height: auto !important;
+  font-size: var(--fs-smlr) !important;
 
+}
 
 /* Blog */
 body,
