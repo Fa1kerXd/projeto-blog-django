@@ -86,6 +86,10 @@ requirements.txt    # Dependências do projeto
 
 ## 📸 Capturas de Tela
 
+### Site
+
+![Foto do site](djangoapp/blog/static/Pictures_for_readme/Picture_site.png)
+
 ### Seção Admin
 
 ![Foto da seção Admin](djangoapp/blog/static/Pictures_for_readme/Pictures_admin.png)
