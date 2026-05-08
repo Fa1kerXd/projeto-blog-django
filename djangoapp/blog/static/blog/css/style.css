@@ -3,7 +3,10 @@
   --_clr-base-hue: 213;
   --_clr-primary: var(--_clr-base-hue) 100%;
   --_clr-gray: var(--_clr-base-hue) 10%;
-
+  --clr-blue: linear-gradient(128.84deg, #2BC0E4 4.35%, #EAECC6 95.65%);
+  --clr-green: #8bcf93;
+  --clr-bl: var(--osano-toggle-off-track-color-contrast, #8e53ff) ;
+  --clr-white: #FFFFFF;
   --clr-whitest: var(--_clr-primary) 100%;
   --clr-white: var(--_clr-primary) 99%;
   --clr-black: var(--_clr-primary) 2%;
@@ -23,6 +26,7 @@
   --clr-gray-dk: var(--_clr-gray) 30%;
   --clr-gray-dkr: var(--_clr-gray) 20%;
   --clr-gray-dkst: var(--_clr-gray) 10%;
+
 
   /* Font-family */
   --ff-regular: Georgia, 'Times New Roman', Times, serif;
@@ -261,6 +265,11 @@ html,
   margin: 0;
 }
 
+.header{
+  background: var(--clr-blue);
+  background-color: var(--clr-green);
+}
+
 /* Menu */
 .menu-items,
 .menu-item {
@@ -293,8 +302,8 @@ html,
 
 .search-input {
   width: 100%;
-  background-color: transparent;
-  border: 2px solid hsl(var(--clr-gray-ltr));
+  background-color: var(--clr-white);
+  border: 2px solid hsl(var(--clr-bl));
   font-size: var(--fs-base);
   padding: var(--spacing-smlst);
   padding-inline-end: calc(var(--spacing-base) + var(--spacing-micro));
@@ -302,7 +311,7 @@ html,
   outline: none;
 }
 .search-input::placeholder {
-  color: hsl(var(--clr-gray-ltr));
+  color: hsl(var(--clr-bl));
 }
 
 .search-input:focus {
@@ -321,7 +330,7 @@ html,
   background: transparent;
   font-size: var(--fs-base);
   padding-inline: var(--spacing-smlst);
-  color: hsl(var(--clr-gray-ltr));
+  color: hsl(var(--clr-primary-base));
 }
 
 .search-content:focus-within .search-btn {
@@ -330,16 +339,17 @@ html,
 
 /* Footer */
 .footer {
-  background: hsl(var(--clr-gray-dk));
-  color: hsl(var(--clr-white));
+  background: var(--clr-blue);
+  background-color: var(--clr-green);
+  color: hsl(var(--clr-bl));
 }
 
 .footer a {
-  color: hsl(var(--clr-white));
+  color: hsl(var(--clr-bl));
 }
 
 .footer a:hover {
-  color: hsl(var(--clr-primary-ltst));
+  color: hsl(var(--clr-bl));
 }
 
 .footer-columns {
