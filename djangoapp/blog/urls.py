@@ -1,5 +1,5 @@
 from django.urls import path
-from blog.views import PostListView,PostDetailView,PageDetailView,CreatedByListView,TagListView,SearchListView,CategoryListView
+from blog.views import PostListView,mundodev,mundootaku,PostDetailView,PageDetailView,CreatedByListView,TagListView,SearchListView,CategoryListView
 
 
 app_name = "blog"
@@ -13,4 +13,6 @@ urlpatterns = [
     path('category/<slug:slug>/',CategoryListView.as_view(),name="category" ),
     path('tag/<slug:slug>/',TagListView.as_view(),name="tag" ),
     path('search/',SearchListView.as_view(),name="search" ),
+    path("mundodev/<slug:slug>",mundodev,name="mundodev"),
+    path("mundoOtaku/<slug:slug>",mundootaku,name="mundootaku")
 ]
