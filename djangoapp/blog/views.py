@@ -174,3 +174,32 @@ class PostDetailView(DetailView):
 
     def get_queryset(self) -> QuerySet[Any]:
         return super().get_queryset().filter(is_published=True)
+    
+
+
+
+
+def mundodev(request,slug):
+    posts = Post.objects.all().filter(is_published=True,tags__slug=slug)
+    
+    context = {
+        "page_obj": posts,
+    }
+    return render(
+        request,
+        "blog/pages/index.html",
+        context
+        )
+
+
+
+def mundootaku(request,slug):
+    posts = Post.objects.filter(is_published=True,tags__slug=slug)
+    context = {
+        "page_obj": posts,
+    }
+    return render(
+        request,
+        "blog/pages/index.html",
+        context,
+        )
